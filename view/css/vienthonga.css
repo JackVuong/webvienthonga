@@ -1,0 +1,834 @@
+/*=======================HEADER=======================*/
+
+/*CUSTOM NAVBAR*/
+.navbar-fixed-top { /*giup thanh navabar chay xuong*/
+    top: 0;
+    border-width: 0 0 1px;
+	background-color:#FF0 !important;
+}
+
+.navbar-header{
+	padding:10px 10px;
+		}
+.logo{
+	background-image:url(../picVTA/logo_vta.png);
+	width:186px;
+	height:35px;
+	background-repeat:no-repeat;	
+}
+.marginRight{
+	margin-right:24px !important;
+	}
+.xoa-cham-list li a{
+		color:#000;
+}
+
+.xoa-cham-list li a:hover{
+	color:#36F;
+	text-decoration:none;
+	
+}
+
+.container{
+	   
+		width:1175px !important;	
+}
+.inner-nav {
+    position: relative;
+    float: right;
+    display: inline-block;
+}
+.inner-nav ul {
+    float: right;
+    : auto;
+    text-align: center;
+	
+}
+
+
+.slider{
+	width: 775px;
+	position:relative;
+	padding-top:320px;
+	margin:0px auto;
+	}
+
+
+.slider > img {
+	position:absolute;
+	top :0;
+	left:0;
+	}
+input[name='slide_switch'] {
+	display:none;
+	}
+.slider label{
+	18px 0 0 18px ;
+	border 3px solid #999;
+	float:left;
+	cursor:pointer;
+	
+	}
+.slide label img{
+	display:block;
+	}
+.slider input[name='slide_switch']:checked + label{
+	opacity:1;
+	border-color: #666;
+	}
+.slider input[name='slide_switch']~img{
+	opacity:0;
+	-webkit-transform:scale(1,1);
+		transform:scale(1,1);
+	}
+.slider input[name='slide_switch']:checked + label +img{
+	opacity:1;
+	-webkit-transform:scale(1);
+		transform:scale(1);
+
+	}
+
+
+
+
+/*        Menu da cap           */
+
+.drop{
+	background-color:#F7F7F7;
+	}
+.drop ul{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    width:200px;
+    border:1px solid #f1f1f1;	
+	display:none;
+	
+}
+
+.drop ul li{ 
+    border-bottom:1px solid #fbfbfb;
+    height:32px;
+    line-height:32px;
+    padding-left:5px;
+    positon: relative;
+    display: block;
+    text-decoration: none;
+    color: darkblue;
+	
+	
+}
+.drop ul li a{ 
+    border-bottom:1px solid #fbfbfb;
+    height:32px;
+    line-height:32px;
+    padding-left:5px;
+    position:relative;
+  	display:block ;
+    text-decoration: none;
+    color: darkblue;
+	
+}
+.drop ul li:hover{
+    display:block;
+    background:#fbfbfb;
+    color: red;
+}
+.drop ul li a:hover{
+    display:block;
+    background:#fbfbfb;
+    color: red;
+}
+
+
+
+.drop li:hover ul{
+    display:block;
+}
+
+/*      END   HOVERRR     */
+
+
+
+
+
+
+
+/*         HOVERRR  Footer   */
+
+
+.morph {
+ -webkit-transition: all 0.4s ease;
+     -moz-transition: all 0.4s ease;
+       -o-transition: all 0.4s ease;
+      -ms-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+
+
+.tilt2 {
+ 
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.tilt2:hover {
+  width: 182px;
+  height: 118px;
+}
+
+
+
+
+
+.tilt {
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.tilt:hover {
+  width: 154px;
+  height: 120px;
+}
+
+
+
+
+/*      END   HOVERRR footer    */
+
+
+
+
+
+
+.hvr-wobble-horizontal .image:hover {
+-webkit-transform: rotate(45deg);
+ transform: rotate(45deg);
+}
+.hvr-wobble-horizontal .image {
+-webkit-transition: all 0.7s ease;
+ transition: all 0.7s ease;
+}
+
+
+
+
+
+	/*Icon menu */
+	.icon_dienThoai {
+		display: block;
+		margin-bottom: 4px;
+		background-image:url(../picVTA/BT_iphone-32.png);
+		height: 32px;
+		width: 34px;
+		background-repeat: no-repeat;
+		position:relative;
+		left:13px;
+	
+	}
+	.icon_tablet {
+		display: block;
+		margin-bottom: 4px;
+		background-image:url(../picVTA/BT_ipad-32.png);
+		height: 32px;
+		width: 34px;
+		background-repeat: no-repeat;
+		position:relative;
+		left:13px;
+	
+	}
+	.icon_laptop {
+		display: block;
+		margin-bottom: 4px;
+		background-image:url(../picVTA/02-32.png);
+		height: 32px;
+		width: 34px;
+		background-repeat: no-repeat;
+		position:relative;
+		left:13px;
+		bottom: -4px;
+	
+	}
+	.icon_phukien {
+		display: block;
+		margin-bottom: 4px;
+		background-image:url(../picVTA/device-headphone-music-mp3-outline-stroke-32.png);
+		height: 32px;
+		width: 34px;
+		background-repeat: no-repeat;
+		position:relative;
+		left:13px;
+	
+	}
+	.icon_doitra {
+		display: block;
+		margin-bottom: 4px;
+		background-image:url(../picVTA/Refresh-32.png);
+		height: 32px;
+		width: 34px;
+		background-repeat: no-repeat;
+		position:relative;
+		left:13px;
+	
+	}
+	.icon_khuyenmai {
+		display: block;
+		margin-bottom: 4px;
+		background-image:url(../picVTA/valenticons-11-32.png);
+		height: 32px;
+		width: 34px;
+		background-repeat: no-repeat;
+		position:relative;
+		left:13px;
+	
+	}
+	.icon_tragop {
+		display: block;
+		margin-bottom: 4px;
+		background-image:url(../picVTA/money_box-32.png);
+		height: 32px;
+		width: 34px;
+		background-repeat: no-repeat;
+		position:relative;
+		left:13px;
+	
+	}
+	.icon_sinhvien {
+		display: block;
+		margin-bottom: 4px;
+		background-image:url(../picVTA/education_learning_graduation_cap-32.png);
+		height: 32px;
+		width: 34px;
+		background-repeat: no-repeat;
+		position:relative;
+		left:13px;
+	
+	}
+	.icon_congnghe {
+		display: block;
+		margin-bottom: 4px;
+		background-image:url(../picVTA/folder-2-32.png);
+		height: 32px;
+		width: 34px;
+		background-repeat: no-repeat;
+		position:relative;
+		left:18px;
+	
+	}
+	.icon_uudaivip {
+		display: block;
+		margin-bottom: 4px;
+		background-image:url(../picVTA/v-care.png);
+		height: 32px;
+		width: 34px;
+		background-repeat: no-repeat;
+		position:relative;
+		left:13px;
+	
+	}
+	/*end icon menu*/
+	/*Custom list product*/
+		.dienThoai {
+			    float: left;
+    			height: 50px;	
+				width: 56px;
+		}
+				
+
+			
+			
+			/*HOVERRRR MENU*/
+		.dienThoai:hover{
+			background-color:#03C;
+			
+			transition-duration:0.5s;
+		}
+		.tablet:hover{
+			background-color:#03C;
+			
+			transition-duration:0.5s;
+		}
+		.laptop:hover{
+			background-color:#03C;
+			
+			transition-duration:0.5s;
+		}
+		.phukien:hover{
+			background-color:#03C;
+			
+			transition-duration:0.5s;
+		}
+		.doitra:hover{
+			background-color:#03C;
+			
+			transition-duration:0.5s;
+		}
+		.khuyenmai:hover{
+			background-color:#03C;
+			
+			transition-duration:0.5s;
+		}
+		
+		.tragop:hover{
+			background-color:#03C;
+			
+			transition-duration:0.5s;
+		}
+		.sinhvien:hover{
+			background-color:#03C;
+			
+			transition-duration:0.5s;
+		}
+		.congnghe:hover{
+			background-color:#03C;
+			
+			transition-duration:0.5s;
+		}
+		.uudaivip:hover{
+			background-color:#03C;
+			
+			transition-duration:0.5s;
+		}
+		/*END custom product*/	
+	
+	
+.form-control{
+	    margin-left: -2px;
+   		 width: 320px !important;
+	}	
+	
+.custom-nav{
+	padding: 5px 10px;
+    float: right;
+    width: 830px;
+    height: 56px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+	
+	/*END CUSTOM NAVBAR*/
+.xoa-cham-list{
+	list-style-type: none;
+	position: relative;
+	    height: 47px;
+
+}
+li{
+	
+	display:inline;
+}
+.clearfix{
+
+	background-repeat:no-repeat;
+}
+.multi-sub {
+    background: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.2);
+    overflow: hidden;
+    width: 700px;
+    height: 300px;
+    padding: 10px 12px;
+}
+.icon_search {
+		display: block;
+		margin-bottom: 4px;
+		background-image:url(../picVTA/basics-19-32.png);
+		height: 32px;
+		width: 34px;
+		background-repeat:no-repeat;
+		position:relative;
+	    left: 285px;
+   	    top: -32px;
+    	
+
+	
+	}
+#cbChonChiNhanh{
+	
+    border-radius: 5px;
+    height: 34px;
+	
+	}
+	
+.search{
+	    
+    	width: 1000px;
+   	    height: 40px;
+	}
+.searchCol{
+	    width: 33.33333333%;
+    	height: 38px !important;
+
+	}
+/*=======================END HEADER=======================*/
+
+
+/*=======================php=======================*/
+
+
+.sanphammoi{
+
+width = 100%;	}
+
+/*=======================END php=======================*/
+
+
+/*=======================sản phẩm=======================*/
+
+.tittle1{
+    position: relative;
+    left: 374px;
+    height: 27px;
+    width: 762px;
+    top: 18px;
+	}
+
+
+.tittle1 a:hover {
+    text-decoration: none;
+	color:#0CF !important;
+	
+
+}
+.tittle2{
+    position: relative;
+    left: 135px;
+    height: 27px;
+    width: 957px;
+    top: 18px;
+
+	}
+.tittle2 a:hover {
+    text-decoration: none;
+	color:#0CF !important;
+	
+
+}
+.tittle3{
+position: relative;
+    left: 237px;
+    height: 27px;
+    width: 803px;
+    top: 18px;
+}
+
+
+.tittle3 a:hover {
+    text-decoration: none;
+	color:#0CF !important;
+	
+
+}
+
+ .tittle4{   
+    position: relative;
+    left: 169px;
+    height: 27px;
+    width: 947px;
+    top: 18px;
+ }
+.tittle4 a:hover {
+    text-decoration: none;
+	color:#0CF !important;
+	
+
+}
+/*=======================END sản phẩm=======================*/
+
+
+
+
+
+
+/*===================above footer ===================*/
+.above-footer ul li {
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+}
+
+.above-footer {
+    background: #58595b;
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 3px 6px 0 rgba(0,0,0,.1);
+    position: relative;
+    top: 49px;
+    z-index: 2;
+}
+.above-footer ul li a:hover {
+    color: #fff;
+}
+.above-footer ul li a {
+    font-size: 16px;
+    color: #d9d9d9;
+    text-transform: uppercase;
+}
+.icon_fdoitra{
+    display: block;
+    background-image: url(../picVTA/Refresh-32.png);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 54px;
+    height: 68px;
+   
+	}
+
+/*===================END above footer ===================*/
+
+
+
+
+
+
+
+.footer-content {
+    padding-top: 30px;
+}
+/*=======================FOOTER=======================*/
+footer{width:100%;}
+.footer-content h3, .footer-content h4 {
+    font-weight: 700;
+    color: #404041;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.footer-content h3 {
+    font-size: 15px;
+}
+.xoa-cham-list, .xoa-cham-list li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+}.footer-content ul {
+    margin-bottom: 30px;
+}
+a:hover, a:active {
+    color: #2e318d;
+}
+a:hover {
+    text-decoration: none;
+}
+.footer-content h3, .footer-content h4 {
+    font-weight: 700;
+    color: #404041;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.top-500 {
+    display: block;
+    padding: 8px 25px;
+    margin: 5px 0 10px;
+    border: 1px solid #c8c9cb;
+}
+p {
+    margin: 0 0 9px;
+}
+.icon_cup {
+    display: block;
+  
+    background-image: url(../picVTA/cup.png);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 54px;
+    height: 68px;
+   
+}
+.icon_phone {
+    display: block;
+  
+    background-image:url(../picVTA/icon-phone.png);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 54px;
+    height: 68px;
+   
+}
+.footer-content .footer-ico-phone .phone {
+    padding-left: 8px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: 700;
+    color: #e81c24;
+}
+.footer .xoa-cham-list {
+    line-height: 21px;
+}
+.xoa-cham-list, .xoa-cham-list li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+footer-tuvan{
+	    height: 198px;
+    position: relative;
+    top: -54px;
+	}
+.phone{
+    position: relative;
+    top: -66px;
+    left: 38px;	}
+.footer-content h3, .footer-content h4 {
+    font-weight: 600;
+    color: #404041;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.footer-content h4 {
+    font-size: 12px;
+}
+.newsletter {
+    margin-bottom: 30px;
+    padding: 10px 8px 15px;
+    background: rgba(0,0,0,.1);
+    outline: 1px dashed #404041;
+    border: 3px solid #e6e7e8;
+}
+.footer-content h3, .footer-content h4 {
+    font-weight: 700;
+    color: #404041;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.footer-content h3 {
+    font-size: 15px;
+}
+.icon_face {
+    display: block;
+  
+    background-image:url(../picVTA/face.PNG);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 327px;
+    height: 148px;
+    top: 30px;
+   
+}
+.suachua{
+	 padding: 0 0 10px;
+    font-weight: 700;
+    color: #2e318d;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: transparent;
+
+	}
+.newsletter p {
+    color: #404041;
+}
+.icon_location {
+    display: block;
+  
+    background-image:url(../picVTA/map-location-pin-map-marker-glyph-16.png);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 27px;
+    width: 24px;
+    top: 29px;
+    left: -23px;
+
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 7px;
+    border: 0;
+    border-top: 1px solid #eee;
+	color:#000;
+}
+.icon_thanhtoan {
+    display: block;
+  
+    background-image:url(../picVTA/thanhtoan.PNG);
+    height: 80px;
+    width: 60px;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 113px;
+    width: 285px;
+   
+
+}
+.icon_chungnhan {
+    display: block;
+  
+    background-image:url(../picVTA/dangky-bct.png);
+   
+    background-repeat: no-repeat;
+    position: relative;
+    width: 159px;
+    height: 57px;
+   
+
+}
+.hr_footer{
+width:1050px;
+ border-color:#999; 
+ border-top:1px dashed #999;	}
+ .xoa-cham-list a:hover{
+	 
+	 }
+ .icon_mail {
+    display: block;
+  
+    background-image:url(../picVTA/message-16.png);
+    background-repeat: no-repeat;
+    width: 54px;
+	margin-left:5px;
+	position: relative;
+	height: 20px;
+	left: -28px;
+	top: -25px;
+
+   
+}
+.final-footer{
+    position: relative;
+    top: -182px;
+	}
+	.final-footer a{
+   	color:#B1B1B1;
+	}
+.icon_phoneLH {
+    display: block;
+  
+    background-image:url(../picVTA/09-16.png);
+    background-repeat: no-repeat;
+    width: 54px;
+	margin-left:5px;
+	position: relative;
+	height: 20px;
+	left: -28px
+   
+}
+/*=======================END FOOTER=======================*/

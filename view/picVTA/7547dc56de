@@ -1,0 +1,11 @@
+function _AdtopTrack(t){this.url=t}_AdtopTrack.prototype.send=function(t,e,n){if("undefined"!=typeof e){var o=null;"undefined"!=typeof n&&(o=window.setTimeout(function(){n()},5e3));var r=new Image;r.onload=function(){"undefined"!=typeof n&&(clearTimeout(o),n())};var i=this.url;i+="/"+t+"?";var d=[];for(var u in e){var p=e[u];p.length>0&&(p=p.trim()),d.push(u+"="+encodeURIComponent(p))}var a=(new Date).getTime();d.push("t="+a),i+=d.join("&"),r.src=i}},_AdtopTrack.prototype.order=function(t,e,n){if("undefined"==typeof e)var e=1;this.send("order",{product_id:t,quantity:e},n)},_AdtopTrack.prototype.register=function(t,e,n){this.send("register",{product_id:t,account_id:e},n)};var AdtopTrack = new _AdtopTrack('//logging.adtop.vn/tracking/cli/7547dc56de');
+window._ATTrack = window._ATTrack || [];
+window._ATTrack.forEach(function(i) {
+	if (typeof i[0] === 'string' && typeof i[1] === 'object') {
+		var m = i[0].toLowerCase();
+		var p = i[1];
+		if (typeof AdtopTrack[m] === 'function') {
+			AdtopTrack.send(m,p);
+		}
+	}
+});
